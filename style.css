@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+:root{
+    --font: "Outfit", sans-serif;
+
+    --bg-clr:  hsl(216, 50%, 16%);
+    --c2-bg-clr: hsl(215, 43%, 25%);
+    --c1-bg-clr: hsl(217, 54%, 11%);
+    --m-bg-clr: hsl(216, 49.5%, 15.2%);
+    --text-clr: hsl(215, 51%, 70%);
+    --eth-clr: hsl(178, 100%, 50%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: var(--bg-clr);
+}
+main,.container1,.container2{
+    border-radius: 10px;
+    padding: 15px;
+}
+main{
+    background-color: var(--m-bg-clr);
+}
+.container1{
+    background-color: var(--c1-bg-clr);
+}
+.container2{
+    display: grid;
+    gap: 1rem;
+    max-width: 300px;
+    background-color: var(--c2-bg-clr);
+}
+header{
+    display: grid;
+    gap: 1rem;
+}
+header .image img{
+    width: 100%;
+    border-radius: 5px;
+}
+h1{
+    font-weight: 600;
+    color: white;
+    font-size: 22px;
+}
+h1:hover{
+    cursor: pointer;
+    color: cyan;
+}
+.desc{
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    font-size: 16px;
+}
+.footer2{
+    display: flex;
+    justify-content: space-between;
+}
+.ETH{
+    display: flex;
+    gap: 0.5rem;
+}
+.value{
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+}
+.clock{
+    display: flex;
+    gap: 0.5rem;
+}
+.time{
+    width: 67px;
+    font-weight: 400;
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+footer img{
+    border-radius: 30px;
+    height: 30px;
+    border: 1px solid white;
+}
+footer p{
+    font-size: 14px;
+    color: hsl(215, 51%, 70%);
+}
+.contain{
+    display: flex;
+    gap: 0.2rem;
+}
+.emph{
+    color: white;
+    font-weight: 400;
+}
+.emph:hover{
+    cursor: pointer;
+    color: cyan;
+}
+.thin{
+    height: 1px;
+    border: none;
+    background-color: hsl(215, 51%, 70%);
+}
